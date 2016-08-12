@@ -7,7 +7,37 @@
   <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>9</version>
+  </parent>
+
   <name>ussd-app-archetype</name>
+  <description>A lightweight USSD application framework</description>
+  <url>http://www.hextremelabs.com/</url>
+
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Sayo Oladeji</name>
+      <email>oluwasayo@hextremelabs.com</email>
+      <organization>Hextremelabs</organization>
+      <organizationUrl>http://www.hextremelabs.com</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/hextremelabs/ussd-app-archetype.git</connection>
+    <developerConnection>scm:git:https://github.com/hextremelabs/ussd-app-archetype.git</developerConnection>
+    <url>https://github.com/hextremelabs/ussd-app-archetype.git</url>
+  </scm>
 
   <build>
     <extensions>
@@ -23,6 +53,16 @@
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
           <version>2.3</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-gpg-plugin</artifactId>
+          <version>1.6</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5.3</version>
         </plugin>
       </plugins>
     </pluginManagement>
