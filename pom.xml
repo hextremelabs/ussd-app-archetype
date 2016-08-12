@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.hextremelabs.ussd</groupId>
-  <artifactId>ussd-server-archetype</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>ussd-app-archetype</artifactId>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
-  <name>ussd-server-archetype</name>
+  <name>ussd-app-archetype</name>
 
   <build>
     <extensions>
