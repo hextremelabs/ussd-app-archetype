@@ -4,7 +4,7 @@
 
   <groupId>com.hextremelabs.ussd</groupId>
   <artifactId>ussd-app-archetype</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <packaging>maven-archetype</packaging>
 
   <parent>
@@ -37,6 +37,7 @@
     <connection>scm:git:https://github.com/hextremelabs/ussd-app-archetype.git</connection>
     <developerConnection>scm:git:https://github.com/hextremelabs/ussd-app-archetype.git</developerConnection>
     <url>https://github.com/hextremelabs/ussd-app-archetype.git</url>
+    <tag>ussd-app-archetype-1.0.1</tag>
   </scm>
 
   <build>
